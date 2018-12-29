@@ -13,6 +13,9 @@ autossh_tunnel_client_port: 22
 autossh_tunnel_client_user: autossh
 autossh_tunnel_client_identity: id_rsa
 
+autossh_tunnel_client_forward_remote: []
+autossh_tunnel_client_forward_local: []
+
 autossh_tunnel_client_autossh_options:
  - 'M 0'
  - 4
